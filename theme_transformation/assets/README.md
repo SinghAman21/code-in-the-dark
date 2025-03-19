@@ -1,0 +1,1 @@
+create toggle button for complementary theme of the given page

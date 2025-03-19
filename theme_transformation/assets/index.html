@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Transformation Challenge</title>
+    <style>
+        :root {
+            --bg-color: #f8f9fa;
+            --text-color: #343a40;
+            --card-bg: #ffffff;
+            --card-border: #dee2e6;
+            --primary-color: #007bff;
+            --secondary-color: #6c757d;
+            --accent-color: #495057;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Georgia', serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .navbar {
+            background-color: var(--primary-color);
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            background-color: var(--secondary-color);
+            border-radius: 5px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+
+        .toggle-container {
+            margin: 20px 0;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        p {
+            color: var(--accent-color);
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--card-border);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+            border-color: var(--primary-color);
+            box-shadow: 0px 2px 10px rgba(0, 123, 255, 0.2);
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="container">
+        <h1>Theme Transformation Challenge</h1>
+        <p>Convert this light theme into a dark theme using CSS variables.</p>
+        
+        <div class="toggle-container">
+            
+        </div>
+        
+        <div class="card">
+            <h2>Card Title</h2>
+            <p>This is a sample card. Adjust the background, text color, and borders for a dark theme.</p>
+        </div>
+    </div>
+</body>
+</html>
