@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2ff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .sidebar {
+            width: 220px;
+            height: 100vh;
+            background: #112;
+            padding: 20px;
+            color: #fff;
+        }
+
+        .dashboard-content {
+            margn-left: 220px; /* Error: should be 'margin-left' */
+            padding: 20px;
+            width: 100%;
+        }
+
+        .cards {
+            display: flex;
+            gap: 15px;
+        }
+
+        .card {
+            width: 150px;
+            background: #fff;
+            padding: 20px;
+            border-radious: 8px; /* Error: should be 'border-radius' */
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .chart {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            widht: 90%; /* Error: should be 'width' */
+            height: 250px;
+        }
+
+        .messages {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>Atrana</h2>
+        <p>Dashboard</p>
+        <p>Components</p>
+        <p>Forms</p>
+        <p>Widgets</p>
+    </div>
+
+    <div class="dashboard-content">
+        <h1>Dashboard</h1>
+        
+        <div class="cards">
+            <div class="card">
+                <h3>Revenue</h3>
+                <p>$65</p>
+            </div>
+            <div class="card">
+                <h3>Orders</h3>
+                <p>3000</p>
+            </div>
+            <div class="card">
+                <h3>Sales</h3>
+                <p>5500</p>
+            </div>
+            <div class="card">
+                <h3>Employees</h3>
+                <p>256</p>
+            </div>
+        </div>
+
+        <div class="chart">
+            <h3>Load Average</h3>
+            <p>Graph placeholder</p>
+        </div>
+
+        <div class="messages">
+            <h3>Recent Messages</h3>
+            <p>Hank Schrader @johnducky</p>
+            <p>Dean Winchester @imdean</p>
+            <p>John Doe @Doejohn</p>
+        </div>
+    </div>
+
+</body>
+</html>
