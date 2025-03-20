@@ -2,4 +2,4 @@
 
 ### code-in-the-dark
 
-- Follow the instruction given in the readme file 
+- Follow the instruction given in the respective readme file for each task
